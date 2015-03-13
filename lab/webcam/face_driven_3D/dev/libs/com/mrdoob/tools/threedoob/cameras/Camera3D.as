@@ -1,0 +1,2 @@
+package com.mrdoob.tools.threedoob.cameras {	import com.mrdoob.tools.threedoob.core.Vector3D;		
+	/**	 * @author mrdoob	 */	public class Camera3D extends Vector3D	{		public var up : Vector3D = new Vector3D(0, 1, 0);		public var target : Vector3D = new Vector3D();		public var zoom : Number = 2;		public var focus : Number = 200;		public var roll : Number = 0;	}}
